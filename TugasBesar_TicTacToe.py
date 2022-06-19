@@ -46,12 +46,12 @@ def check_win():
         disable_button()
 
     #o winners
-    elif (t1["text"] == "0" and t2["text"] == "0" and t3["text"] == "0" or 
+    if (t1["text"] == "O" and t2["text"] == "O" and t3["text"] == "O" or 
         t4["text"] == "O" and t5["text"] == "O" and t6["text"] == "O" or 
         t7["text"] == "O" and t8["text"] == "O" and t9["text"] == "O" or 
         t1["text"] == "O" and t4["text"] == "O" and t7["text"] == "O" or 
         t2["text"] == "O" and t5["text"] == "O" and t8["text"] == "O" or 
-        t3["text"] == "O" and t6["text"] == "O" and t9["text"] == "0" or 
+        t3["text"] == "O" and t6["text"] == "O" and t9["text"] == "O" or 
         t1["text"] == "O" and t5["text"] == "O" and t9["text"] == "O" or
         t3["text"] == "O" and t5["text"] == "O" and t7["text"] == "O"):
         win = True
